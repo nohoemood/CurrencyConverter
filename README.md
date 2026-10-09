@@ -54,7 +54,7 @@ The application features a custom interface with full support for both **Light a
 
 | Live Filtering "Eu" (Light) | Live Filtering "Eu" (Dark) |
 | :---: | :---: |
-| <img width="1206" height="2622" alt="6" src="https://github.com/user-attachments/assets/c233aeb2-158a-4fb2-a305-2882121b8dc9" /> | <img width="1206" height="2622" alt="6d" src="https://github.com/user-attachments/assets/f32780a6-5217-472d-a645-cb1d78c62da8" />/> |
+| <img width="1206" height="2622" alt="6" src="https://github.com/user-attachments/assets/c233aeb2-158a-4fb2-a305-2882121b8dc9" /> | <img width="1206" height="2622" alt="6d" src="https://github.com/user-attachments/assets/f32780a6-5217-472d-a645-cb1d78c62da8" /> |
 | Intelligent search recognizing partial matches by names and currency tickers. | Instant updating of the results table. |
 
 ### Tab Navigation & Edge Cases
