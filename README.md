@@ -5,19 +5,14 @@ Currency converter from Ruble based on the Central Bank of Russia's API. Minimal
 ## 1. Design
 A mockup design has been created in Figma without components or variations. View the mockup in Figma. **[View Figma Design Mockup](https://www.figma.com/design/BzVQMXbPNZJaABuic6brRi/Currency-%D1%81onverter?node-id=0-1&t=geFylUHvQGRyjjZG-1)**
 
-## 2. Tech Stack & Architecture
-* **Hybrid Interface:** Built with SwiftUI and UIKit. Complex UI components (such as `UICollectionView` for the currency list and custom `UIView` elements) are written in UIKit and seamlessly integrated into SwiftUI using wrappers.
-* **Architecture:** Implements the MVVM pattern utilizing the Combine framework (`@Published`, `ObservableObject`) for reactive data binding.
+## 2. Stack
+1. Swift
+2. SwiftUI + UIKit via UIViewRepresentable
+3. MVVM
+4. Combine
+5. async/await, Codable, GCD
 
-## 3. Concurrency & Networking
-* **Multithreading:** Powered by modern Swift Concurrency using `async/await` and `Task` for asynchronous network requests. Safe UI updates are ensured by context inheritance, `@MainActor` isolation, and `DispatchQueue.main`.
-* **API Integration:** Fetches live daily exchange rates from an open JSON API ([cbr-xml-daily.ru](https://www.cbr-xml-daily.ru/daily_json.js)). The raw JSON data is fetched via `URLSession` and safely parsed into strongly typed Swift models using the `Decodable` protocol and custom `CodingKeys`.
-
-## 4. Roadmap
-* Add micro-interactions and smooth UI animations.
-* Implement a dedicated `DetailView` screen to display in-depth information for each selected currency.
-
-## 5. Screenshots
+## 3. Screenshots
 
 ### Dashboard & Conversion
 | Main Dashboard (Light) | Main Dashboard (Dark) |
